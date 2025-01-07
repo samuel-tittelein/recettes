@@ -1,0 +1,135 @@
+/* Styles généraux */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f5; /* Fond doux et accueillant */
+    color: #444;
+}
+
+/* En-tête */
+header {
+    background-color: #f7d9c4; /* Ton chaleureux */
+    color: #5a2a07;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header em {
+    font-size: 1.2rem;
+    color: #854d27;
+}
+
+/* Titres de section */
+h2 {
+    color: #b45309;
+    border-bottom: 2px solid #f7c49a;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Conteneur principal */
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Limite la largeur pour garder une bonne lisibilité */
+    text-align: justify; /* Justification du texte */
+}
+
+/* Listes */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Paragraphes et mises en évidence */
+p {
+    margin-bottom: 15px;
+}
+
+em {
+    color: #b45309;
+    font-style: italic;
+}
+
+/* Pied de page */
+footer {
+    background-color: #5a2a07;
+    color: #f7d9c4;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.recipe-list li {
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease-in-out;
+}
+.recipe-list li:hover {
+    transform: scale(1.02);
+    background-color: #fff;
+}
+.recipe-list a {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+.recipe-list a:hover {
+    color: #b45309;
+}
+.back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.back-button .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #b45309;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button .button:hover {
+    background-color: #5a2a07;
+}
+
+img {
+    padding: 0 10%;
+    min-height:
+    13rem; height:
+    50vh; width: 80%;
+    object-fit: cover;
+}
