@@ -1,0 +1,10 @@
+{
+  "name": "recettes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serveur web local pour le site de recettes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
